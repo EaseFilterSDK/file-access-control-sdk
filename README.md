@@ -27,7 +27,7 @@ With the SDK, developers can control file operations at every stage of the I/O l
   - [4. Transparent AES-256 File Encryption (TFE)](#4-transparent-aes-256-file-encryption-tfe)
 - [Supported Languages & Integrations](#supported-languages--integrations)
 - [Getting Started](#getting-started)
-- [License & Support](#license--support)
+- [License & Support](#License)
 
 ---
 
