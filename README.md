@@ -7,6 +7,8 @@
 
 The **EaseFilter File Control SDK** is a kernel-level development toolkit for building file security, access control, anti-ransomware, and data protection solutions on Windows. Powered by a high-performance Windows file system minifilter driver, it intercepts and manages file I/O operations in real time—providing granular control far beyond standard Windows APIs or Access Control Lists (ACLs).
 
+With the SDK, developers can control file operations at every stage of the I/O lifecycle. Before an I/O request reaches the underlying file system, you can block or allow file access either natively in the kernel using static filter rules or dynamically at runtime through user-mode callbacks. Additionally, after the file system processes the request, you can intercept and modify the I/O data returned from the file system—enabling advanced capabilities such as transparent encryption, data redaction, and virtualized file views.
+
 > **Documentation & Official Guide:** [EaseFilter File Control Filter Driver SDK](https://www.easefilter.com/kb/file-control-file-security-sdk.htm)
 
 ---
